@@ -42,5 +42,7 @@ const fileteredItems = items.filter((oneItem)=>{
     return oneItem.price <= 100
 })
 
-console.log(fileteredItems)
+const fileteredItems2 = items.filter(oneItem=>oneItem.price <= 100)
+
+console.log(fileteredItems2)
 

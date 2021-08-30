@@ -46,3 +46,27 @@ const fileteredItems2 = items.filter(oneItem=>oneItem.price <= 100)
 
 console.log(fileteredItems2)
 
+/**
+ * Map method
+ */
+
+const itemNames = items.map(item => item.name)
+
+console.log(itemNames)
+
+/**
+ * find method
+ */
+
+const foundItem = items.find(item => item.name === 'Mac')
+
+console.log(foundItem)
+
+/**
+ * forEach method
+ * - it does not return anything.
+ */
+
+items.forEach(element => {
+    console.log(element.price * 100)
+})
